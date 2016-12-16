@@ -1,6 +1,6 @@
 <?php
-require_once(__DIR__ . '/errorHandler.php');
-require_once(__DIR__ . '/autoloader.php');
+require_once(__DIR__ . '/../errorHandler.php');
+require_once(__DIR__ . '/../autoloader.php');
 
 $requestParser = new \app\components\RequestParser($_SERVER);
 $controllerName = $requestParser->getControllerName();
